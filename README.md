@@ -19,7 +19,7 @@ python imagenet_download_scripts/extract_ILSVRC_training_data_from_ZIP.py
 ```
 python imagenet_download_scripts/extract_ILSVRC_validation_data_from_ZIP.py
 ```
-4. Create Folders for Validation Data (class folders) using script create_folders_for_validation_data.sh.
+4. Create folders for validation data (class folders) using script create_folders_for_validation_data.sh.
 ```
 ./imagenet_download_scripts/create_folders_for_validation_data.sh
 ```
