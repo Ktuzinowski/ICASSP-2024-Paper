@@ -28,4 +28,4 @@ python imagenet_download_scripts/extract_ILSVRC_validation_data_from_ZIP.py
 python imagenet_download_scripts/test_utilize_imagenet.py
 ```
 ## Vision Transformer Models
-* Inside the folder ViT, there is a Python file model_vit.py. Inside this is a way to get the ViT attention output weights for each encoder block. Use this architecture for training later ViTs to compare Mean Attention Distance.
+* Inside the folder ViT, there is a Python file model_vit.py. Inside this is a way to get the ViT attention output weights for each encoder block. Use this architecture for training ViTs to compare Mean Attention Distance.
