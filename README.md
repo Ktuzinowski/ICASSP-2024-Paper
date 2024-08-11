@@ -14,7 +14,7 @@ wget https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_val.tar --no-check-ce
 ### 2. Run Python file **extract_ILSVRC_training_data_from_ZIP.py** in the same directory as **ILSVRC2012_img_train.tar**. Should create a folder **imagenet/train**.
 ```
 python imagenet_download_scripts/extract_ILSVRC_training_data_from_ZIP.py
-``
+```
 ### 3. Run Python file **extract_ILSVRC_validation_data_from_ZIP.py** in the same directory as **ILSVRC2012_img_val.tar**. Should create a folder **imagenet/val**.
 ```
 python imagenet_download_scripts/extract_ILSVRC_validation_data_from_ZIP.py
