@@ -29,6 +29,7 @@ python imagenet_download_scripts/test_utilize_imagenet.py
 ```
 ## Vision Transformer Models
 * Inside the folder **vit**, there is a Python file **model_vit.py**. Inside this is a way to get the ViT attention output weights for each encoder block. Use this architecture for training ViTs to compare Mean Attention Distance.
+* Inside **vit**, there are Python files to help run the Transformer models. Use them whenever training on either ImageNet or CIFAR10, and make appropriate changes to the dataloaders.
 ## CKA (Centered Kernel Alignment)
 * Inside **cka** folder, there are two files used for CKA. **CKA.py** is a simple CKA script for comparing latent representations in simple tensors or numpy arrays, not to be used with actual models.
 * **model_compare.py** is used for comparing models. Inside script you can specify the dataset, models to use, and the type of information that you want to look at for feature extraction.
